@@ -1,0 +1,22 @@
+.element {
+    display: grid;
+    width: 50em;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(60px, auto);
+}
+.substance {
+    font-size: large;
+    color: blue;
+    width: 10em;
+    background-color: yellow;
+    border-style: double;
+    border-width: 2px;
+    border-color:chartreuse;
+    border-radius: 2px;
+}
+
+header {
+    color:darkorange;
+    margin-block: 10px; 
+}
