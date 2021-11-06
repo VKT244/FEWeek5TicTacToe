@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel ="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Tic Tac Toe</h2>
+    </header>
+    <h6 class="substance">Display player turn</h6>
+
+    <div class="element">
+        <button  data-cell-index="0" class="cell" style="color: darkslategray;"></button>
+        <button  data-cell-index="1" class="cell" style="color: darkslategray;"></button>
+        <button  data-cell-index="2" class="cell" style="color: darkslategray;"></button>
+        <button  data-cell-index="3" class="cell" style="color: darkslategray;"></button>
+        <button  data-cell-index="4" class="cell" style="color: darkslategray;"></button>
+        <button  data-cell-index="5" class="cell" style="color: darkslategray;"></button>
+        <button  data-cell-index="6" class="cell" style="color: darkslategray;"></button>
+        <button  data-cell-index="7" class="cell" style="color: darkslategray;"></button>
+        <button  data-cell-index="8" class="cell" style="color: darkslategray;"></button>
+    </div>    
+
+    <div class="restart">
+        <button type="reset" value="Reset">Reset Game</button>
+    </div>
+</body>
+<script src="Index.js"></script>
+</html>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
